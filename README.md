@@ -37,7 +37,7 @@
 | Dự án | Mô tả | Link |
 |-------|--------|------|
 | [WEBLEARN-Eai](https://github.com/tranvantai204/WEBLEARN-Eai) | Web học tiếng Anh với các tính năng tương tác và học tập hiệu quả. | ![Stars](https://img.shields.io/github/stars/tranvantai204/WEBLEARN-Eai?style=social) |
-| [Ứng dụng đặt vé xe khách] | Ứng dụng di động và web để đặt vé xe khách tiện lợi (đang phát triển). | (Sắp ra mắt) |
+| [Ứng dụng đặt vé xe khách](https://github.com/tranvantai204/GarageBookingFE.git) | Ứng dụng di động và web để đặt vé xe khách tiện lợi. | (đã ra mắt) |
 | [Phần mềm đo lường độ sạch nước] | Ý tưởng tương lai: Ứng dụng kèm web sử dụng AI để đo và theo dõi chất lượng nước. | (Ý tưởng phát triển) |
 
 ### 📫 Liên hệ với tôi
