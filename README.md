@@ -1,54 +1,69 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Hi+there!+I'm+Tran+Van+Tai;Full-Stack+Developer;Passionate+about+Mobile+%26+Web+Apps" alt="Typing SVG" />
-</div>
 
-### 👋 Xin chào! Tôi là Trần Văn Tài
-- 🔭 Tôi đang làm việc với **Node.js, ReactJS, Flutter, HTML/CSS/JS, MongoDB, và SQL**.
-- 🌱 Tôi đang học và phát triển các ứng dụng di động và web.
-- 👯 Tôi mong muốn hợp tác trong các dự án open-source liên quan đến môi trường và dịch vụ.
-- 💬 Hỏi tôi về **phát triển ứng dụng** hoặc **công nghệ xanh**.
-- ⚡ Fun fact: Tôi đam mê xây dựng giải pháp công nghệ để cải thiện môi trường và cuộc sống hàng ngày.
+<!-- Header động với Trái Đất xoay + Vũ trụ -->
+<img src="https://i.imgur.com/8X9jK2m.gif" alt="Rotating Earth in Space" width="100%" />
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tranvantai204&show_icons=true&locale=en&theme=radical" width="48%" alt="Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tranvantai204&layout=compact&theme=radical" width="42%" alt="Top Languages" />
-</div>
+<!-- Tiêu đề kiểu Alien -->
+<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF; margin-top: -10px;">
+  Hi Alien! 👽<br>
+  I'm <strong>Trần Văn Tài</strong> from the Earth.
+</h1>
 
-### 🛠️ Công cụ & Tech Stack
-<table>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td><b>Backend</b></td>
-    <td><b>Mobile</b></td>
-    <td><b>Database</b></td>
-  </tr>
-  <tr>
-    <td>ReactJS | HTML/CSS/JS</td>
-    <td>Node.js</td>
-    <td>Flutter</td>
-    <td>MongoDB | SQL</td>
-  </tr>
-</table>
+<!-- Icons công nghệ -->
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" />
+</p>
 
-### 📊 GitHub Stats
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=tranvantai204&theme=radical)](https://github.com/tranvantai204)
-
-### 🔥 Dự án nổi bật
-| Dự án | Mô tả | Link |
-|-------|--------|------|
-| [WEBLEARN-Eai](https://github.com/tranvantai204/WEBLEARN-Eai) | Web học tiếng Anh với các tính năng tương tác và học tập hiệu quả. | ![Stars](https://img.shields.io/github/stars/tranvantai204/WEBLEARN-Eai?style=social) |
-| [Ứng dụng đặt vé xe khách](https://github.com/tranvantai204/GarageBookingFE.git) | Ứng dụng di động và web để đặt vé xe khách tiện lợi. | (đã ra mắt) |
-| [Phần mềm đo lường độ sạch nước] | Ý tưởng tương lai: Ứng dụng kèm web sử dụng AI để đo và theo dõi chất lượng nước. | (Ý tưởng phát triển) |
-
-### 📫 Liên hệ với tôi
-- 📧 Email: vtai14122004@gmail.com
-- 📱 Zalo: 0585761955
-- 📘 Facebook: [Liên hệ qua Zalo hoặc email để kết nối FB]
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=tranvantai204&label=Profile%20views&color=0e75b6&style=flat" alt="Views" />
 </div>
 
 ---
-⭐️ Cảm ơn bạn đã ghé thăm! Hãy star repo nếu bạn thấy hữu ích.  
-![Footer](https://img.shields.io/badge/Built%20with%20❤️%20and%20Code-brightgreen)
+
+### 🌍 **Full-Stack Developer · Xây dựng giải pháp từ Trái Đất**
+
+> *"Mỗi dòng code là một vệ tinh – kết nối tương lai."*
+
+- **Công nghệ chính**: `Node.js`, `ReactJS`, `Flutter`, `MongoDB`, `MySQL`, `HTML/CSS/JS`  
+- **Đang phát triển**: Ứng dụng đo độ sạch nước, đặt vé xe khách, web học tiếng Anh  
+- **Mở hợp tác**: Dự án môi trường, dịch vụ, open-source  
+- **Liên hệ**: `vtai14122004@gmail.com` · `0585761955` (Zalo/FB)
+
+---
+
+<div align="center">
+
+| ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tranvantai204&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=FFFFFF&icon_color=00E5FF) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tranvantai204&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=FFFFFF) |
+|---|---|
+
+</div>
+
+---
+
+### 🚀 **Dự án nổi bật**
+
+| Dự án | Mô tả | Tech | Trạng thái |
+|------|------|------|-----------|
+| **[WEBLEARN-Eai](https://github.com/tranvantai204/WEBLEARN-Eai)** | Web học tiếng Anh AI | React, Node.js, MongoDB | Hoàn thiện |
+| **AquaSense** | Đo độ sạch nước (IoT + AI) | Flutter, Node.js, MySQL | MVP |
+| **[BusTicket Pro](https://github.com/tranvantai204/GarageBookingFE.git)** | Đặt vé xe khách online | React, Flutter | Hoàn thiện |
+
+---
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tranvantai204&theme=midnight-purple&hide_border=true&background=0D1117&stroke=00E5FF&ring=00E5FF&fire=00FFAA&currStreakLabel=00E5FF" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=tranvantai204&label=👽+Visitors+from+Space&color=00E5FF&style=flat-square" />
+</div>
+
+---
+<div align="center">
+  <img src="https://img.shields.io/badge/Built%20with%20Code%20%26%20Vision-00E5FF?style=for-the-badge&logo=starship&logoColor=white" />
+</div>
