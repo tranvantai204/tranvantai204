@@ -2,7 +2,6 @@
 
 <!-- Header động với Trái Đất xoay + Vũ trụ -->
 <img src="https://i.imgur.com/8X9jK2m.gif" alt="Rotating Earth in Space" width="100%" />
-
 <!-- Tiêu đề kiểu Alien -->
 <h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF; margin-top: -10px;">
   Hi Alien! 👽<br>
