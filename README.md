@@ -1,9 +1,11 @@
 <div align="center">
 
-<!-- Header động với Trái Đất xoay + Vũ trụ -->
-<img src="https://raw.githubusercontent.com/tranvantai204/tranvantai204/main/earth.gif" alt="Rotating Earth in Space" width="100%" /><!-- Tiêu đề kiểu Alien -->
-<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF; margin-top: -10px;">
-  Hi Alien! 👽<br>
+<!-- Header động: Trái Đất xoay trong vũ trụ (GIF từ CDN ổn định, đã test) -->
+<img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" alt="Rotating Earth in Space" width="100%" />
+
+<!-- Tiêu đề kiểu Alien -->
+<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF; margin-top: -20px;">
+  Hi Alien!  
   I'm <strong>Trần Văn Tài</strong> from the Earth.
 </h1>
 
@@ -21,12 +23,15 @@
 
 ---
 
-### 🌍 **Full-Stack Developer · Xây dựng giải pháp từ Trái Đất**
+### Full-Stack Developer · Xây dựng giải pháp từ Trái Đất
 
 > *"Mỗi dòng code là một vệ tinh – kết nối tương lai."*
 
 - **Công nghệ chính**: `Node.js`, `ReactJS`, `Flutter`, `MongoDB`, `MySQL`, `HTML/CSS/JS`  
-- **Đang phát triển**: Ứng dụng đo độ sạch nước, đặt vé xe khách, web học tiếng Anh  
+- **Dự án đang phát triển**:  
+  - **AquaSense** – Đo độ sạch nước (IoT + AI)  
+  - **BusTicket Pro** – Đặt vé xe khách online  
+  - **WEBLEARN-Eai** – Web học tiếng Anh  
 - **Mở hợp tác**: Dự án môi trường, dịch vụ, open-source  
 - **Liên hệ**: `vtai14122004@gmail.com` · `0585761955` (Zalo/FB)
 
@@ -41,13 +46,13 @@
 
 ---
 
-### 🚀 **Dự án nổi bật**
+### Dự án nổi bật
 
 | Dự án | Mô tả | Tech | Trạng thái |
 |------|------|------|-----------|
-| **[WEBLEARN-Eai](https://github.com/tranvantai204/WEBLEARN-Eai)** | Web học tiếng Anh AI | React, Node.js, MongoDB | Hoàn thiện |
-| **AquaSense** | Đo độ sạch nước (IoT + AI) | Flutter, Node.js, MySQL | MVP |
-| **[BusTicket Pro](https://github.com/tranvantai204/GarageBookingFE.git)** | Đặt vé xe khách online | React, Flutter | Hoàn thiện |
+| **[WEBLEARN-Eai](https://github.com/tranvant puanai204/WEBLEARN-Eai)** | Web học tiếng Anh AI | React, Node.js, MongoDB | Hoàn thiện |
+| **AquaSense** | Đo độ sạch nước | Flutter, Node.js, MySQL | MVP |
+| **BusTicket Pro** | Đặt vé xe khách | React, Flutter | Phát triển |
 
 ---
 
@@ -58,7 +63,7 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=tranvantai204&label=👽+Visitors+from+Space&color=00E5FF&style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=tranvantai204&label=Visitors+from+Space&color=00E5FF&style=flat-square" />
 </div>
 
 ---
