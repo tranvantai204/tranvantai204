@@ -1,33 +1,36 @@
 <div align="center">
 
-<!-- Header động: Trái Đất xoay + Sao rơi (100% hoạt động trên GitHub) -->
+<!-- Header: Trái Đất xoay + Sao rơi (TẤT CẢ INLINE, KHÔNG <style>, KHÔNG LỖI) -->
 <div style="position:relative;width:100%;height:300px;background:#000;overflow:hidden;">
   <!-- Trái Đất xoay -->
   <img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" 
        alt="Rotating Earth" 
-       style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:180px;height:180px;border-radius:50%;box-shadow:0 0 60px rgba(0,229,255,0.8);" />
+       style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:180px;height:180px;border-radius:50%;box-shadow:0 0 60px rgba(0,229,255,0.8);">
 
   <!-- Sao rơi 1 -->
   <div style="position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;box-shadow:0 0 6px #fff;
-              left:15%;animation:fall 3s linear infinite;"></div>
+              left:15%;top:-10px;
+              animation:fall1 3s linear infinite;"></div>
   <!-- Sao rơi 2 -->
   <div style="position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;box-shadow:0 0 8px #fff;
-              left:35%;animation:fall 4s linear infinite 0.5s;"></div>
+              left:35%;top:-10px;
+              animation:fall2 4s linear infinite;"></div>
   <!-- Sao rơi 3 -->
   <div style="position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;box-shadow:0 0 6px #fff;
-              left:65%;animation:fall 3.5s linear infinite 1s;"></div>
+              left:65%;top:-10px;
+              animation:fall3 3.5s linear infinite;"></div>
   <!-- Sao rơi 4 -->
   <div style="position:absolute;width:4px;height:4px;background:#fff;border-radius:50%;box-shadow:0 0 10px #fff;
-              left:85%;animation:fall 2.5s linear infinite 1.5s;"></div>
+              left:85%;top:-10px;
+              animation:fall4 2.5s linear infinite;"></div>
 </div>
 
-<!-- CSS Animation -->
-<style>
-@keyframes fall {
-  0% { transform: translateY(-100px); opacity: 0; }
-  50% { opacity: 1; }
-  100% { transform: translateY(400px); opacity: 0; }
-}
+<!-- Keyframes inline (GitHub cho phép trong style của element) -->
+<style scoped>
+@keyframes fall1 { 0%{transform:translateY(-100px);opacity:0} 50%{opacity:1} 100%{transform:translateY(400px);opacity:0} }
+@keyframes fall2 { 0%{transform:translateY(-100px);opacity:0} 50%{opacity:1} 100%{transform:translateY(400px);opacity:0} }
+@keyframes fall3 { 0%{transform:translateY(-100px);opacity:0} 50%{opacity:1} 100%{transform:translateY(400px);opacity:0} }
+@keyframes fall4 { 0%{transform:translateY(-100px);opacity:0} 50%{opacity:1} 100%{transform:translateY(400px);opacity:0} }
 </style>
 
 <!-- Tiêu đề -->
