@@ -1,14 +1,16 @@
 <div align="center">
 
-<!-- Header động: Trái Đất xoay + Sao rơi (CSS Animation) -->
-<div style="position: relative; width: 100%; height: 300px; background: #000 url('https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif') center/cover no-repeat; overflow: hidden;">
+<!-- Header động: Trái Đất xoay + Sao rơi (CSS + HTML) -->
+<div style="position: relative; width: 100%; height: 300px; background: #000; overflow: hidden;">
+  <!-- Trái Đất xoay -->
+  <img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" alt="Rotating Earth" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 180px; height: 180px; border-radius: 50%; box-shadow: 0 0 60px rgba(0, 229, 255, 0.8);" />
   
-  <!-- Sao rơi hiệu ứng -->
+  <!-- Sao rơi -->
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-    <div class="star" style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite;"></div>
-    <div class="star" style="position: absolute; width: 3px; height: 3px; background: white; border-radius: 50%; box-shadow: 0 0 8px #fff; animation: fall linear infinite; animation-delay: 0.5s;"></div>
-    <div class="star" style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; animation-delay: 1s;"></div>
-    <div class="star" style="position: absolute; width: 4px; height: 4px; background: white; border-radius: 50%; box-shadow: 0 0 10px #fff; animation: fall linear infinite; animation-delay: 1.5s;"></div>
+    <div style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; left: 15%; animation-duration: 3s;"></div>
+    <div style="position: absolute; width: 3px; height: 3px; background: white; border-radius: 50%; box-shadow: 0 0 8px #fff; animation: fall linear infinite; left: 35%; animation-duration: 4s; animation-delay: 0.5s;"></div>
+    <div style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; left: 65%; animation-duration: 3.5s; animation-delay: 1s;"></div>
+    <div style="position: absolute; width: 4px; height: 4px; background: white; border-radius: 50%; box-shadow: 0 0 10px #fff; animation: fall linear infinite; left: 85%; animation-duration: 2.5s; animation-delay: 1.5s;"></div>
   </div>
 </div>
 
@@ -18,19 +20,15 @@
   50% { opacity: 1; }
   100% { transform: translateY(400px); opacity: 0; }
 }
-.star:nth-child(1) { left: 10%; animation-duration: 3s; }
-.star:nth-child(2) { left: 30%; animation-duration: 4s; }
-.star:nth-child(3) { left: 60%; animation-duration: 3.5s; }
-.star:nth-child(4) { left: 80%; animation-duration: 2.5s; }
 </style>
 
-<!-- Tiêu đề kiểu Alien -->
-<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF, 0 0 20px #00E5FF; margin-top: -10px;">
+<!-- Tiêu đề -->
+<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF, 0 0 20px #00E5FF; margin: 20px 0 10px;">
   Hi Alien!  
   I'm <strong>Trần Văn Tài</strong> from the Earth.
 </h1>
 
-<!-- Icons công nghệ -->
+<!-- Icons -->
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
