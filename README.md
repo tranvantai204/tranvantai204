@@ -1,19 +1,27 @@
 <div align="center">
 
-<!-- Header động: Trái Đất xoay + Sao rơi (CSS + HTML) -->
-<div style="position: relative; width: 100%; height: 300px; background: #000; overflow: hidden;">
+<!-- Header động: Trái Đất xoay + Sao rơi (100% hoạt động trên GitHub) -->
+<div style="position:relative;width:100%;height:300px;background:#000;overflow:hidden;">
   <!-- Trái Đất xoay -->
-  <img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" alt="Rotating Earth" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 180px; height: 180px; border-radius: 50%; box-shadow: 0 0 60px rgba(0, 229, 255, 0.8);" />
-  
-  <!-- Sao rơi -->
-  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-    <div style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; left: 15%; animation-duration: 3s;"></div>
-    <div style="position: absolute; width: 3px; height: 3px; background: white; border-radius: 50%; box-shadow: 0 0 8px #fff; animation: fall linear infinite; left: 35%; animation-duration: 4s; animation-delay: 0.5s;"></div>
-    <div style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; left: 65%; animation-duration: 3.5s; animation-delay: 1s;"></div>
-    <div style="position: absolute; width: 4px; height: 4px; background: white; border-radius: 50%; box-shadow: 0 0 10px #fff; animation: fall linear infinite; left: 85%; animation-duration: 2.5s; animation-delay: 1.5s;"></div>
-  </div>
+  <img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" 
+       alt="Rotating Earth" 
+       style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:180px;height:180px;border-radius:50%;box-shadow:0 0 60px rgba(0,229,255,0.8);" />
+
+  <!-- Sao rơi 1 -->
+  <div style="position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;box-shadow:0 0 6px #fff;
+              left:15%;animation:fall 3s linear infinite;"></div>
+  <!-- Sao rơi 2 -->
+  <div style="position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;box-shadow:0 0 8px #fff;
+              left:35%;animation:fall 4s linear infinite 0.5s;"></div>
+  <!-- Sao rơi 3 -->
+  <div style="position:absolute;width:2px;height:2px;background:#fff;border-radius:50%;box-shadow:0 0 6px #fff;
+              left:65%;animation:fall 3.5s linear infinite 1s;"></div>
+  <!-- Sao rơi 4 -->
+  <div style="position:absolute;width:4px;height:4px;background:#fff;border-radius:50%;box-shadow:0 0 10px #fff;
+              left:85%;animation:fall 2.5s linear infinite 1.5s;"></div>
 </div>
 
+<!-- CSS Animation -->
 <style>
 @keyframes fall {
   0% { transform: translateY(-100px); opacity: 0; }
@@ -23,19 +31,19 @@
 </style>
 
 <!-- Tiêu đề -->
-<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF, 0 0 20px #00E5FF; margin: 20px 0 10px;">
+<h1 style="font-family:'Orbitron',sans-serif;color:#00E5FF;text-shadow:0 0 10px #00E5FF,0 0 20px #00E5FF;margin:20px 0 10px;">
   Hi Alien!  
   I'm <strong>Trần Văn Tài</strong> from the Earth.
 </h1>
 
 <!-- Icons -->
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
 </p>
 
 </div>
