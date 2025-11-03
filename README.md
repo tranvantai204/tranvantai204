@@ -1,10 +1,31 @@
 <div align="center">
 
-<!-- Header động: Trái Đất xoay trong vũ trụ (GIF từ CDN ổn định, đã test) -->
-<img src="https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif" alt="Rotating Earth in Space" width="100%" />
+<!-- Header động: Trái Đất xoay + Sao rơi (CSS Animation) -->
+<div style="position: relative; width: 100%; height: 300px; background: #000 url('https://raw.githubusercontent.com/duyet/readme-earth/master/earth.gif') center/cover no-repeat; overflow: hidden;">
+  
+  <!-- Sao rơi hiệu ứng -->
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+    <div class="star" style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite;"></div>
+    <div class="star" style="position: absolute; width: 3px; height: 3px; background: white; border-radius: 50%; box-shadow: 0 0 8px #fff; animation: fall linear infinite; animation-delay: 0.5s;"></div>
+    <div class="star" style="position: absolute; width: 2px; height: 2px; background: white; border-radius: 50%; box-shadow: 0 0 6px #fff; animation: fall linear infinite; animation-delay: 1s;"></div>
+    <div class="star" style="position: absolute; width: 4px; height: 4px; background: white; border-radius: 50%; box-shadow: 0 0 10px #fff; animation: fall linear infinite; animation-delay: 1.5s;"></div>
+  </div>
+</div>
+
+<style>
+@keyframes fall {
+  0% { transform: translateY(-100px); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateY(400px); opacity: 0; }
+}
+.star:nth-child(1) { left: 10%; animation-duration: 3s; }
+.star:nth-child(2) { left: 30%; animation-duration: 4s; }
+.star:nth-child(3) { left: 60%; animation-duration: 3.5s; }
+.star:nth-child(4) { left: 80%; animation-duration: 2.5s; }
+</style>
 
 <!-- Tiêu đề kiểu Alien -->
-<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF; margin-top: -20px;">
+<h1 style="font-family: 'Orbitron', sans-serif; color: #00E5FF; text-shadow: 0 0 10px #00E5FF, 0 0 20px #00E5FF; margin-top: -10px;">
   Hi Alien!  
   I'm <strong>Trần Văn Tài</strong> from the Earth.
 </h1>
@@ -50,7 +71,7 @@
 
 | Dự án | Mô tả | Tech | Trạng thái |
 |------|------|------|-----------|
-| **[WEBLEARN-Eai](https://github.com/tranvant puanai204/WEBLEARN-Eai)** | Web học tiếng Anh AI | React, Node.js, MongoDB | Hoàn thiện |
+| **[WEBLEARN-Eai](https://github.com/tranvantai204/WEBLEARN-Eai)** | Web học tiếng Anh AI | React, Node.js, MongoDB | Hoàn thiện |
 | **AquaSense** | Đo độ sạch nước | Flutter, Node.js, MySQL | MVP |
 | **BusTicket Pro** | Đặt vé xe khách | React, Flutter | Phát triển |
 
